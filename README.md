@@ -27,5 +27,15 @@ Um app desenvolvido em android Nativo para gerenciar carros em um estacionamento
 
 ---
 
+# 🏛️ Arquitetura 
+  - Model-View-ViewModel(MVVM)
+
+---
+
 # 😛 Linguagem
   - Kotlin
+
+---
+
+# 🚦 Status do Projeto -> 🟡
+  - Em Desenvolvimento
