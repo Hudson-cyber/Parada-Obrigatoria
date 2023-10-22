@@ -2,7 +2,7 @@
 <h4 align="center"> ✏️ Descrição do projeto </h4>
 Uma aplicação desenvolvida em android nativo usando as ferramentas recomendadas pela google **(android jetpack)** para gerenciar carros em um estacionamento
 
-<h5> Principais atividades: </h5>
+<h4> Principais atividades: </h4>
 
   * Cadastramento do veiculo 
   * Cálculo do valor com base no tempo 
