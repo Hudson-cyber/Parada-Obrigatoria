@@ -3,10 +3,10 @@
 Uma aplicação desenvolvida em android nativo usando as ferramentas recomendadas pela google (android jetpack) para gerenciar carros em um estacionamento
 
 <h6> Principais atividades: </h6>
-  - Cadastramento do veiculo 
-  - Cálculo do valor com base no tempo 
-  - saida do veiculo
-  - Método de pagamento
+  * Cadastramento do veiculo 
+  * Cálculo do valor com base no tempo 
+  * saida do veiculo
+  * Método de pagamento
 
 ---
 
