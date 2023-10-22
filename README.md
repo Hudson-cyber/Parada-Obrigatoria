@@ -10,6 +10,7 @@ Um app desenvolvido em android Nativo para gerenciar carros em um estacionamento
   - Recycler View
   - Inejeção de dependencia (koin)
   - Coroutines
+  - View binding
   
 --- 
 
