@@ -1,6 +1,11 @@
 <h1 align="center"> ⚠️ Parada Obrigatória ⚠️ </h1>
 <h4 align="center"> ✏️ Descrição do projeto </h4>
-Um app desenvolvido em android Nativo para gerenciar carros em um estacionamento
+Uma aplicação desenvolvida em android nativo, usando as ferramentas recomendadas pelo google para gerenciar carros em um estacionamento
+Principais atividades:
+  - Cadastramento do veiculo 
+  - Cálculo do valor com base no tempo 
+  - saida do veiculo
+  - Método de pagamento
 
 ---
 
