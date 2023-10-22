@@ -15,9 +15,9 @@ Um app desenvolvido em android Nativo para gerenciar carros em um estacionamento
      - [Android Studio](https://developer.android.com/studio)
      -  [Emulador](https://developer.android.com/studio/run/emulator?hl=pt-br)
        
-# Links uteis
+# ⛓️ Links uteis
   - [Documentação android Studio](https://developer.android.com/?hl=pt-br)
   - [componentes de designer](https://m2.material.io/design)
 
-# Linguagem
+# 😛 Linguagem
   - Kotlin
