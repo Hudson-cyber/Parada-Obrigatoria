@@ -1,4 +1,4 @@
-<h1 align="center"> Seu título aqui </h1>
+<h1 align="center"> Parada Obrigatória </h1>
 <h4 align="center"> Descrição do projeto </h4>
 Um app desenvolvido em android Nativo para gerenciar carros em um estacionamento
 ---
@@ -6,7 +6,8 @@ Um app desenvolvido em android Nativo para gerenciar carros em um estacionamento
   - Room
   - Retrofit
   - Recycler View
-  - Inejeção de dependencia (koin)    
+  - Inejeção de dependencia (koin)
+  - Coroutines
 
 # 🛠️ Abrir e rodar o projeto
   - É necessário ter em seu computador
@@ -17,3 +18,6 @@ Um app desenvolvido em android Nativo para gerenciar carros em um estacionamento
 # Links uteis
   - [Documentação android Studio](https://developer.android.com/?hl=pt-br)
   - [componentes de designer](https://m2.material.io/design)
+
+# Linguagem
+  - Kotlin
