@@ -1,7 +1,8 @@
 <h1 align="center"> ⚠️ Parada Obrigatória ⚠️ </h1>
 <h4 align="center"> ✏️ Descrição do projeto </h4>
-Uma aplicação desenvolvida em android nativo, usando as ferramentas recomendadas pelo google para gerenciar carros em um estacionamento
-Principais atividades:
+Uma aplicação desenvolvida em android nativo usando as ferramentas recomendadas pela google (android jetpack) para gerenciar carros em um estacionamento
+
+<h6>Principais atividades:</h6>
   - Cadastramento do veiculo 
   - Cálculo do valor com base no tempo 
   - saida do veiculo
