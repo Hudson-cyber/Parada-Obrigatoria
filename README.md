@@ -1,7 +1,9 @@
 <h1 align="center"> ⚠️ Parada Obrigatória ⚠️ </h1>
 <h4 align="center"> ✏️ Descrição do projeto </h4>
 Um app desenvolvido em android Nativo para gerenciar carros em um estacionamento
+
 ---
+
 # 🧑‍💻 Tecnologias:
   - Room
   - Retrofit
