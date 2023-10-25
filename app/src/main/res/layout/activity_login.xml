@@ -52,7 +52,7 @@
         tools:layout_editor_absoluteX="1dp">
 
         <com.google.android.material.textfield.TextInputEditText
-            android:id="@+id/textInpPassword"
+            android:id="@+id/txtInpPassword"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginStart="20dp"

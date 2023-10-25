@@ -11,5 +11,17 @@ class LoginActivity : AppCompatActivity() {
         val loginBinding = ActivityLoginBinding.inflate(layoutInflater)
         val view = loginBinding.root
         setContentView(view)
+
+        loginBinding.btnLogin.setOnClickListener {
+            val email = loginBinding.txtInpEmail.text.toString()
+            val password = loginBinding.txtInpPassword.text.toString()
+            if (email.isEmpty()){
+                loginBinding.textInputLayout.error = "email em branco"
+            }else if (password.isEmpty()){
+                loginBinding.textInputLayout2.error = "senha em branco"
+            }else{
+                // view model
+            }
+        }
     }
 }

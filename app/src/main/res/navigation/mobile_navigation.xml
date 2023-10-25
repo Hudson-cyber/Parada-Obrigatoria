@@ -9,17 +9,35 @@
         android:id="@+id/nav_home"
         android:name="com.hudson.paradaobrigatoria.view.menu.home.HomeFragment"
         android:label="@string/menu_home"
-        tools:layout="@layout/fragment_home" />
+        tools:layout="@layout/fragment_home" >
+        <action
+            android:id="@+id/action_nav_home_to_nav_entry"
+            app:destination="@id/nav_entry" />
+        <action
+            android:id="@+id/action_nav_home_to_nav_patio"
+            app:destination="@id/nav_patio" />
+    </fragment>
 
     <fragment
         android:id="@+id/nav_patio"
         android:name="com.hudson.paradaobrigatoria.view.menu.patio.PatioFragment"
         android:label="@string/menu_patio"
-        tools:layout="@layout/fragment_patio" />
+        tools:layout="@layout/fragment_patio" >
+        <action
+            android:id="@+id/action_nav_patio_to_nav_home"
+            app:destination="@id/nav_home" />
+    </fragment>
 
     <fragment
         android:id="@+id/nav_entry"
         android:name="com.hudson.paradaobrigatoria.view.menu.entry.EntryFragment"
         android:label="@string/menu_entry"
-        tools:layout="@layout/fragment_entry" />
+        tools:layout="@layout/fragment_entry" >
+        <action
+            android:id="@+id/action_nav_entry_to_nav_home"
+            app:destination="@id/nav_home" />
+        <action
+            android:id="@+id/action_nav_entry_to_nav_patio"
+            app:destination="@id/nav_patio" />
+    </fragment>
 </navigation>

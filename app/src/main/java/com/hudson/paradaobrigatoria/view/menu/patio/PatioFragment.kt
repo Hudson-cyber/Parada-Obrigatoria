@@ -4,10 +4,11 @@ import android.os.Bundle
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
-import android.widget.TextView
 import androidx.fragment.app.Fragment
 import androidx.lifecycle.ViewModelProvider
 import com.hudson.paradaobrigatoria.databinding.FragmentPatioBinding
+import com.hudson.paradaobrigatoria.domain.models.AppClient
+import com.hudson.paradaobrigatoria.view.menu.patio.adapter.CarListAdapter
 
 class PatioFragment : Fragment() {
 
@@ -28,10 +29,19 @@ class PatioFragment : Fragment() {
         _binding = FragmentPatioBinding.inflate(inflater, container, false)
         val root: View = binding.root
 
-        val textView: TextView = binding.textGallery
-        patioViewModel.text.observe(viewLifecycleOwner) {
-            textView.text = it
-        }
+        // teste
+        var list = listOf<AppClient>(
+            AppClient(plate = "xxx", model = "XXX", null, null, null, null, null),
+            AppClient(plate = "yyy", model = "yyy", null, null, null, null, null),
+            AppClient(plate = "zzz",model = "XXX", null, null,null, null, null),
+            AppClient(plate = "aaa",model = "XXX", null, null,null, null, null),
+            AppClient(plate = "ccc",model = "XXX", null, null,null, null, null),
+            AppClient(plate = "eee",model = "XXX", null, null,null, null, null)
+        )
+
+        _binding!!.carListRecyclerview.adapter = context?.let { CarListAdapter(list, it) }
+
+
         return root
     }
 

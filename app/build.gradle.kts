@@ -77,4 +77,8 @@ dependencies {
     annotationProcessor("androidx.room:room-compiler:$roomVersion")
 
     kapt("androidx.room:room-compiler:$roomVersion")
+
+    //recycler view
+    implementation ("com.androidx.support:recyclerview-v7:26.0.2")
+    implementation ("com.androidx.support:cardview-v7:26.0.2")
 }
