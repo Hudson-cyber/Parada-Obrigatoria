@@ -4,8 +4,10 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import com.hudson.paradaobrigatoria.R
 import com.hudson.paradaobrigatoria.databinding.ActivityLoginBinding
+import org.koin.androidx.viewmodel.ext.android.viewModel
 
 class LoginActivity : AppCompatActivity() {
+    val loginViewModel: LoginViewModel by viewModel<LoginViewModel>()
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         val loginBinding = ActivityLoginBinding.inflate(layoutInflater)
@@ -20,7 +22,7 @@ class LoginActivity : AppCompatActivity() {
             }else if (password.isEmpty()){
                 loginBinding.textInputLayout2.error = "senha em branco"
             }else{
-                // view model
+                loginViewModel.sendDataLogin(email = email, password = password)
             }
         }
     }

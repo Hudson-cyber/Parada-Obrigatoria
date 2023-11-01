@@ -20,7 +20,7 @@ import retrofit2.converter.gson.GsonConverterFactory
 val appModule = module {
     single<ApiServices> {
         Retrofit.Builder()
-            .baseUrl("")
+            .baseUrl("https://dev.app.jumpparkapi.com.br/api/")
             .client(OkHttpClient.Builder().build())
             .addConverterFactory(GsonConverterFactory.create())
             .build().create(ApiServices::class.java)
